@@ -1,15 +1,10 @@
-.main {
+.splash-main {
   min-height: 100vh;
   background: url(../../img/splash-bg.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.typography {
-  text-align: center;
-  color: whitesmoke;
-}
-
-.container {
+.splash-container {
   height: 100vh;
 }

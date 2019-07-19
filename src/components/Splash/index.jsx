@@ -3,18 +3,16 @@ import { Grid, Typography, Container } from "@material-ui/core";
 import "./styles.css";
 
 export default class Splash extends Component {
-  message = "Hello Wrld";
-
   render() {
     return (
-      <Grid className="main">
+      <Grid className="splash-main">
         <Container>
           <Grid
             container
             direction="row"
             justify="center"
             alignItems="center"
-            className="container"
+            className="splash-container"
           >
             <Grid item>
               <div className="typography">

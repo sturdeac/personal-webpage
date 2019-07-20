@@ -4,7 +4,7 @@ import "./styles.css";
 
 export default class Experience extends Component {
   textColor = {
-    color: "white"
+    color: "#f5f5f5"
   };
 
   render() {
@@ -18,7 +18,7 @@ export default class Experience extends Component {
               </Typography>
             </Grid>
             <Grid item>
-              <Grid container direction="row" justify="center" spacing={10}>
+              <Grid container direction="row" spacing={10}>
                 <Grid item xs={12} md={6}>
                   <Typography variant="h6" style={this.textColor}>
                     Blackbaud
@@ -27,27 +27,68 @@ export default class Experience extends Component {
                     Software Engineer Intern
                   </Typography>
                   <Typography variant="body2" style={this.textColor}>
-                    June 2019 - August 2019
+                    Summer 2019
                   </Typography>
                   <Typography variant="caption" style={this.textColor}>
-                    This is some text about the job that I did when I worked
-                    there. I want to make this text wrap so I am going to keep
-                    writing to see what happens.
+                    <ul>
+                      <li>
+                        Learned the .NET framework by developing API endpoints
+                        and webservices in C#.
+                      </li>
+                      <li>
+                        Learned AngularJS by developing single page applications
+                        that interfaced with a .NET api.
+                      </li>
+                      <li>
+                        Created unit tests using mocking libraries in JS and C#.
+                      </li>
+                    </ul>
                   </Typography>
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <Typography variant="h6" style={this.textColor}>
-                    Blackbaud
+                    Neoteric Hovercraft Inc.
                   </Typography>
                   <Typography variant="body1" style={this.textColor}>
-                    Software Engineer Intern
+                    Software Engineer
                   </Typography>
                   <Typography variant="body2" style={this.textColor}>
-                    June 2019 - August 2019
+                    May 2018 - May 2019
                   </Typography>
                   <Typography variant="caption" style={this.textColor}>
-                    This is some text about the job that I did when I worked
-                    there.
+                    <ul>
+                      <li>
+                        Created a majority of their website that is currently in
+                        development.
+                      </li>
+                      <li>
+                        Built an Android application with Java to clock
+                        employees in and out.
+                      </li>
+                    </ul>
+                  </Typography>
+                </Grid>
+                <Grid item xs={12} md={6}>
+                  <Typography variant="h6" style={this.textColor}>
+                    NinjaZone
+                  </Typography>
+                  <Typography variant="body1" style={this.textColor}>
+                    Software Engineer intern
+                  </Typography>
+                  <Typography variant="body2" style={this.textColor}>
+                    Summer 2017
+                  </Typography>
+                  <Typography variant="caption" style={this.textColor}>
+                    <ul>
+                      <li>
+                        Worked on their WordPress website to create a better
+                        user experience for the customers.
+                      </li>
+                      <li>
+                        Upgraded and created custom plugins to make back end
+                        processes more efficient.
+                      </li>
+                    </ul>
                   </Typography>
                 </Grid>
               </Grid>
